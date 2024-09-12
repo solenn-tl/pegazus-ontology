@@ -1,0 +1,31 @@
+{
+  "@context" : {
+    "isOrWasDigitalInstantiationOf" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf"
+    },
+    "hasClasse" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasClasse"
+    },
+    "identifier" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#identifier"
+    },
+    "hasClasseValue" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasClasseValue"
+    },
+    "used" : {
+      "@id" : "http://www.w3.org/ns/prov#used"
+    },
+    "isOrWasIncludedIn" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn"
+    },
+    "wasGeneratedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy"
+    },
+    "Record" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#Record"
+    },
+    "Instanciation" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#Instanciation"
+    }
+  }
+}

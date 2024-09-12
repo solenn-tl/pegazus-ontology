@@ -1,0 +1,70 @@
+{
+  "@context" : {
+    "wasGeneratedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy"
+    },
+    "timePrecision" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timePrecision"
+    },
+    "TimeInstant" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+    },
+    "isOrWasInstantiationOf" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf"
+    },
+    "Interval" : {
+      "@id" : "http://www.w3.org/2006/time#Interval"
+    },
+    "timeStamp" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeStamp"
+    },
+    "name" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#name"
+    },
+    "hasTime" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasTime"
+    },
+    "location" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#location"
+    },
+    "hasEnd" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasEnd"
+    },
+    "CrispTimeInstant" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant"
+    },
+    "isSourceType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType"
+    },
+    "hasBeginning" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasBeginning"
+    },
+    "identifier" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#identifier"
+    },
+    "isOrWasDigitalInstantiationOf" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf"
+    },
+    "hasOrHadPhysicalLocation" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation"
+    },
+    "timeCalendar" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeCalendar"
+    },
+    "RecordSet" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#RecordSet"
+    },
+    "Instantiation" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#Instantiation"
+    },
+    "hasOrHadDerivedInstanciation" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation"
+    },
+    "hasCreationDate" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#hasCreationDate"
+    },
+    "isOrWasIncludedIn" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "@context" : {
+    "sourcedFrom" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#sourcedFrom"
+    },
+    "hiddenLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hiddenLabel"
+    },
+    "isLandmarkType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkType"
+    },
+    "LandmarkRelation" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+    },
+    "Landmark" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "isLandmarkRelationType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType"
+    },
+    "locatum" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#locatum"
+    },
+    "relatum" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#relatum"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    }
+  }
+}
