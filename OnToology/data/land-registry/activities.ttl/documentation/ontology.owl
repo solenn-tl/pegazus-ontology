@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/prov#endedAtTime -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#endedAtTime"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#startedAtTime -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#startedAtTime"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#used -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#used"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAssociatedWith -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/familyName -->
+
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/familyName"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+
+    <AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/firstName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Activity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Agent -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0001 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0001">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>Classification manuelle des pages de registres</rdfs:label>
+        <prov:wasAssociatedWith rdf:nodeID="genid2"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Solenn Tual</rdfs:label>
+        <foaf:familyName>Tual</foaf:familyName>
+        <foaf:firstName>Solenn</foaf:firstName>
+    </rdf:Description>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0002 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0002">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>Transcription manuelle des registres</rdfs:label>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2024-03-29T00:00:00</prov:endedAtTime>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2024-03-04T00:00:00</prov:startedAtTime>
+        <prov:wasAssociatedWith rdf:nodeID="genid3"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Solenn Tual</rdfs:label>
+        <foaf:familyName>Tual</foaf:familyName>
+        <foaf:firstName>Solenn</foaf:firstName>
+    </rdf:Description>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0003 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0003">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>Recallage de plans parcellaires géoréférencés</rdfs:label>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2024-04-15T00:00:00</prov:endedAtTime>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2024-04-15T00:00:00</prov:startedAtTime>
+        <prov:used rdf:resource="http://rdf.geohistoricaldata.org/id/source/FRAD094_3P_001041_georef"/>
+        <prov:wasAssociatedWith rdf:nodeID="genid4"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Solenn Tual</rdfs:label>
+        <foaf:familyName>Tual</foaf:familyName>
+        <foaf:firstName>Solenn</foaf:firstName>
+    </rdf:Description>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0004 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0004">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>Géoréférencement des plans du cadastre napoléonien du 94</rdfs:label>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2015-03-17T00:00:00</prov:endedAtTime>
+        <prov:used rdf:resource="http://rdf.geohistoricaldata.org/id/source/FRAD094_3P_001041"/>
+        <prov:wasAssociatedWith rdf:nodeID="genid5"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label>Service départemental d&apos;Archéologie du Val-de-Marne</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0005 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0005">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>Géoréférencement des plans du cadastre napoléonien des communes annexées</rdfs:label>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2023-05-16T00:00:00</prov:endedAtTime>
+        <prov:used rdf:resource="http://rdf.geohistoricaldata.org/id/source/CN80"/>
+        <prov:wasAssociatedWith rdf:nodeID="genid6"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdfs:label>Paris Time Machine</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <rdfs:label>Vectorisation manuelle des plans parcellaires</rdfs:label>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2024-06-19T00:00:00</prov:endedAtTime>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2024-06-19T00:00:00</prov:startedAtTime>
+        <prov:used rdf:resource="http://rdf.geohistoricaldata.org/id/source/FRAD094_3P_001041_georef_2"/>
+        <prov:used rdf:resource="http://rdf.geohistoricaldata.org/id/source/digit_CN80_georef"/>
+        <prov:wasAssociatedWith rdf:nodeID="genid7"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:label>Solenn Tual</rdfs:label>
+        <foaf:familyName>Tual</foaf:familyName>
+        <foaf:firstName>Solenn</foaf:firstName>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

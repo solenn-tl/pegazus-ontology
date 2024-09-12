@@ -1,0 +1,16 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0001" -> "503e47bb79867e8877485f52f03915e3" [ label = "prov:wasAssociatedWith" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006" -> "29fae1312d5c3358e84ad2e4d90b5c6a" [ label = "prov:wasAssociatedWith" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006" -> "source:digit_CN80_georef" [ label = "prov:used" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006" -> "source:FRAD094_3P_001041_georef_2" [ label = "prov:used" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0004" -> "a5eef4ca0b0b95e9c25a853c73f26b04" [ label = "prov:wasAssociatedWith" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0004" -> "source:FRAD094_3P_001041" [ label = "prov:used" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0002" -> "d87d208e06c8fff98d2a80622679b431" [ label = "prov:wasAssociatedWith" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0005" -> "008f016d7468c0b30c3b4be081cd3373" [ label = "prov:wasAssociatedWith" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0005" -> "source:CN80" [ label = "prov:used" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0003" -> "5b279ae6e4df5921cecdfd666271373a" [ label = "prov:wasAssociatedWith" ];
+	"http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0003" -> "source:FRAD094_3P_001041_georef" [ label = "prov:used" ];
+
+}

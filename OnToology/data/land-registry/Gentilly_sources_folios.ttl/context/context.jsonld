@@ -1,0 +1,19 @@
+{
+  "@context" : {
+    "hasNumFolio" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio"
+    },
+    "isOrWasConstituentOf" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf"
+    },
+    "isSourceType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType"
+    },
+    "hasAlternativeNumFolio" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio"
+    },
+    "RecordPart" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+    }
+  }
+}

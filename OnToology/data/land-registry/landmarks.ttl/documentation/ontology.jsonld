@@ -1,0 +1,2758 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "_:genid10",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid102"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid102",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid103"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1967-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid104",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid105"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid107"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid107",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid108"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1811-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid110"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid12"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid110",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid111",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid112"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid113"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid113",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1847-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid115",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid116"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid117",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid118"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid119"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid119",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1811-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid13"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid122",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid125"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid126",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid127"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid128",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid129"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid130"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid130",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid132",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid133"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid133",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid134",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid135"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid135",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid136"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1847-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid137",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid138"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid138",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid139"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid139",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1967-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid140",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/IsPartOf"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid141",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Along"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid142",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid143",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid144"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid144",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid145"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid145",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid146",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid147"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid147",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid148",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid149",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid150"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid16"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid150",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid151"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid151",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid152",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid153",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid154",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid155"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid155",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid156",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid157",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid158"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid158",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid159"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid159",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1811-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid160",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid161"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid161",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid162"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid162",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid163",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid164"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid164",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid165"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid165",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid166",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid167"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid167",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid168",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid169"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid169",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid18"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid170",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid171"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid171",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid172"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid172",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid173",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid174",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid175"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid176",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid177"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid177",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid178"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid178",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1811-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid179",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid180",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid181"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid181",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid182",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid183"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid183",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid184"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid184",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1967-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid185",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid186"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid186",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid187"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid187",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid188",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid189"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid189",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid190"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1847-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid190",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1967-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid21"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid23"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid25"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid27"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid28"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid30"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid32"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid34"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid36"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid40"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid41"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1847-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid44"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid45"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid47"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid48"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1789-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid51"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid52"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid54"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1847-12-31T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid57"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid58"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid63"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid64"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1800-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid66"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid67"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1789-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid69"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid72"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid74"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid76"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid77"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1800-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid79"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid82"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid83"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1811-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid86"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid87"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1789-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid90"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid92"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid93"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1795-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid95"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid96"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "http://rdf.geohistoricaldata.org/def/address#timeCalendar" : [ {
+    "@id" : "http://www.w3.org/2006/time#Gregorian"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timePrecision" : [ {
+    "@id" : "http://www.w3.org/2006/time#Year"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#timeStamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "@value" : "1845-01-01T00:00:00"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#locatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#relatum" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+  } ]
+}, {
+  "@id" : "_:genid98",
+  "http://rdf.geohistoricaldata.org/def/address#appliedTo" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#dependsOn" : [ {
+    "@id" : "_:genid99"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isChangeType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "http://rdf.geohistoricaldata.org/def/address#hasTime" : [ {
+    "@id" : "_:genid100"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#Change",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#appliedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#dependsOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#hasTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#isChangeType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#locatum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#numInsee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#relatum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#timeCalendar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#timePrecision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/address#timeStamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Canton"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Villejuif"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "M"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section M du Moulin de la Roche"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "I"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section I de Bicêtre"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "A"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section A dite de la Santé"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "H"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section H des Petits Jardins"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Thoroughfare"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rue des Archives"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "P"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section P du Bourg"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "K"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section K du Fort"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "L"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section L des Martinets"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "A"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section A de la Santé"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Commune"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#numInsee" : [ {
+    "@value" : "94037"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gentilly"
+  } ],
+  "http://www.wikidata.org/wiki/Property:P8422" : [ {
+    "@value" : "15323"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "N"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section N du Chaperon Vert"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "AD94"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Structure"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Archives Départementales du Val-de-Marne"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "C"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section C de la Maison Blanche"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "O"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section O des Hautes Bornes"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Departement"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#numInsee" : [ {
+    "@value" : "94"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Val-de-Marne"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "F"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section F dite des Maisons"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Commune"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#numInsee" : [ {
+    "@value" : "75056"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Paris"
+  } ],
+  "http://www.wikidata.org/wiki/Property:P8422" : [ {
+    "@value" : "26207"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "D"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section D de Bicêtre"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Commune"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#numInsee" : [ {
+    "@value" : "94028"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Créteil"
+  } ],
+  "http://www.wikidata.org/wiki/Property:P8422" : [ {
+    "@value" : "11051"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "B"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section B du Petit Gentilly"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "C"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section C dite de la Glacière"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "10"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/HouseNumber"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "10 Rue des Archives"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Arrondisement"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sceaux"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "R"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section R du Bas du Bourg"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "G"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section G des Sablons"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "Q"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section Q de la Rue Frileuse"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "E"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section E de Gentilly"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "D"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section D dite de la Barrière de Fontainebleau"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/identifier" : [ {
+    "@value" : "E"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Section E dite du Bel Air"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/address#isLandmarkType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Departement"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/address#numInsee" : [ {
+    "@value" : "75"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Seine"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/wiki/Property:P8422",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
