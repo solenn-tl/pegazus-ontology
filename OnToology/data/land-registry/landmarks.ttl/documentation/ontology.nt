@@ -1,0 +1,909 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#appliedTo
+<http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#dependsOn
+<http://rdf.geohistoricaldata.org/def/address#dependsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#hasTime
+<http://rdf.geohistoricaldata.org/def/address#hasTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#isChangeType
+<http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType
+<http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#isLandmarkType
+<http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#locatum
+<http://rdf.geohistoricaldata.org/def/address#locatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#numInsee
+<http://rdf.geohistoricaldata.org/def/address#numInsee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#relatum
+<http://rdf.geohistoricaldata.org/def/address#relatum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#timeCalendar
+<http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#timePrecision
+<http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#timeStamp
+<http://rdf.geohistoricaldata.org/def/address#timeStamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.wikidata.org/wiki/Property:P8422
+<http://www.wikidata.org/wiki/Property:P8422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://rdf.geohistoricaldata.org/def/address#Change
+<http://rdf.geohistoricaldata.org/def/address#Change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#Event
+<http://rdf.geohistoricaldata.org/def/address#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#Landmark
+<http://rdf.geohistoricaldata.org/def/address#Landmark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#LandmarkRelation
+<http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#TimeInstant
+<http://rdf.geohistoricaldata.org/def/address#TimeInstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2
+<http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Arrondisement> .
+<http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> <http://www.w3.org/2000/01/rdf-schema#label> "Sceaux" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775
+<http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> <http://purl.org/dc/terms/identifier> "R" .
+<http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> <http://www.w3.org/2000/01/rdf-schema#label> "Section R du Bas du Bourg" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc
+<http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> <http://purl.org/dc/terms/identifier> "G" .
+<http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> <http://www.w3.org/2000/01/rdf-schema#label> "Section G des Sablons" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6
+<http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> <http://purl.org/dc/terms/identifier> "Q" .
+<http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> <http://www.w3.org/2000/01/rdf-schema#label> "Section Q de la Rue Frileuse" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4
+<http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> <http://purl.org/dc/terms/identifier> "E" .
+<http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> <http://www.w3.org/2000/01/rdf-schema#label> "Section E de Gentilly" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a
+<http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> <http://purl.org/dc/terms/identifier> "D" .
+<http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> <http://www.w3.org/2000/01/rdf-schema#label> "Section D dite de la Barrière de Fontainebleau" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b
+<http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> <http://purl.org/dc/terms/identifier> "E" .
+<http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> <http://www.w3.org/2000/01/rdf-schema#label> "Section E dite du Bel Air" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b
+<http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Departement> .
+<http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> <http://rdf.geohistoricaldata.org/def/address#numInsee> "75" .
+<http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> <http://www.w3.org/2000/01/rdf-schema#label> "Seine" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4
+<http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Canton> .
+<http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> <http://www.w3.org/2000/01/rdf-schema#label> "Villejuif" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265
+<http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> <http://purl.org/dc/terms/identifier> "M" .
+<http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> <http://www.w3.org/2000/01/rdf-schema#label> "Section M du Moulin de la Roche" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03
+<http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> <http://purl.org/dc/terms/identifier> "I" .
+<http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> <http://www.w3.org/2000/01/rdf-schema#label> "Section I de Bicêtre" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0
+<http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Thoroughfare> .
+<http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> <http://www.w3.org/2000/01/rdf-schema#label> "Rue des Archives" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27
+<http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> <http://purl.org/dc/terms/identifier> "P" .
+<http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> <http://www.w3.org/2000/01/rdf-schema#label> "Section P du Bourg" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272
+<http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> <http://purl.org/dc/terms/identifier> "A" .
+<http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> <http://www.w3.org/2000/01/rdf-schema#label> "Section A dite de la Santé" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f
+<http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> <http://purl.org/dc/terms/identifier> "H" .
+<http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> <http://www.w3.org/2000/01/rdf-schema#label> "Section H des Petits Jardins" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125
+<http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> <http://purl.org/dc/terms/identifier> "A" .
+<http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> <http://www.w3.org/2000/01/rdf-schema#label> "Section A de la Santé" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912
+<http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> <http://purl.org/dc/terms/identifier> "K" .
+<http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> <http://www.w3.org/2000/01/rdf-schema#label> "Section K du Fort" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd
+<http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> <http://purl.org/dc/terms/identifier> "L" .
+<http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> <http://www.w3.org/2000/01/rdf-schema#label> "Section L des Martinets" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4
+<http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Commune> .
+<http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> <http://rdf.geohistoricaldata.org/def/address#numInsee> "94037" .
+<http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> <http://www.w3.org/2000/01/rdf-schema#label> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> <http://www.wikidata.org/wiki/Property:P8422> "15323" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f
+<http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> <http://purl.org/dc/terms/identifier> "N" .
+<http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> <http://www.w3.org/2000/01/rdf-schema#label> "Section N du Chaperon Vert" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc
+<http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> <http://purl.org/dc/terms/identifier> "O" .
+<http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> <http://www.w3.org/2000/01/rdf-schema#label> "Section O des Hautes Bornes" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770
+<http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Departement> .
+<http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> <http://rdf.geohistoricaldata.org/def/address#numInsee> "94" .
+<http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> <http://www.w3.org/2000/01/rdf-schema#label> "Val-de-Marne" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327
+<http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> <http://purl.org/dc/terms/identifier> "F" .
+<http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> <http://www.w3.org/2000/01/rdf-schema#label> "Section F dite des Maisons" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c
+<http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> <http://purl.org/dc/terms/identifier> "AD94" .
+<http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Structure> .
+<http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> <http://www.w3.org/2000/01/rdf-schema#label> "Archives Départementales du Val-de-Marne" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10
+<http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> <http://purl.org/dc/terms/identifier> "C" .
+<http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> <http://www.w3.org/2000/01/rdf-schema#label> "Section C de la Maison Blanche" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f
+<http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Commune> .
+<http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> <http://rdf.geohistoricaldata.org/def/address#numInsee> "75056" .
+<http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> <http://www.w3.org/2000/01/rdf-schema#label> "Paris" .
+<http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> <http://www.wikidata.org/wiki/Property:P8422> "26207" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce
+<http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> <http://purl.org/dc/terms/identifier> "D" .
+<http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> <http://www.w3.org/2000/01/rdf-schema#label> "Section D de Bicêtre" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82
+<http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> <http://purl.org/dc/terms/identifier> "C" .
+<http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> <http://www.w3.org/2000/01/rdf-schema#label> "Section C dite de la Glacière" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a
+<http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/Commune> .
+<http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> <http://rdf.geohistoricaldata.org/def/address#numInsee> "94028" .
+<http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> <http://www.w3.org/2000/01/rdf-schema#label> "Créteil" .
+<http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> <http://www.wikidata.org/wiki/Property:P8422> "11051" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102
+<http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> <http://purl.org/dc/terms/identifier> "B" .
+<http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/landmarkType/Section> .
+<http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> <http://www.w3.org/2000/01/rdf-schema#label> "Section B du Petit Gentilly" .
+# 
+# http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525
+<http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Landmark> .
+<http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> <http://purl.org/dc/terms/identifier> "10" .
+<http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> <http://rdf.geohistoricaldata.org/def/address#isLandmarkType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkType/HouseNumber> .
+<http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> <http://www.w3.org/2000/01/rdf-schema#label> "10 Rue des Archives" .
+# 
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid2 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> .
+_:genid2 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid3 .
+_:genid3 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid4 .
+_:genid4 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid4 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid4 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid2 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid5 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> .
+_:genid5 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid5 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid7 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> .
+_:genid7 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid7 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid9 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid9 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> .
+_:genid9 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid10 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid10 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> .
+_:genid10 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid11 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> .
+_:genid11 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid12 .
+_:genid12 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid13 .
+_:genid13 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid13 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid13 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid11 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid14 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> .
+_:genid14 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid15 .
+_:genid15 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid16 .
+_:genid16 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid16 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid16 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid14 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid17 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> .
+_:genid17 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid18 .
+_:genid18 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid19 .
+_:genid19 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1847-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid19 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid19 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid17 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid20 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> .
+_:genid20 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid20 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid22 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> .
+_:genid22 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid22 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid24 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> .
+_:genid24 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid24 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid26 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> .
+_:genid26 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid27 .
+_:genid27 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid28 .
+_:genid28 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid28 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid28 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid26 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid29 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> .
+_:genid29 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid29 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid31 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> .
+_:genid31 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid31 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid33 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> .
+_:genid33 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid33 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid35 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> .
+_:genid35 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid35 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid37 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid37 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> .
+_:genid37 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid38 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid38 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> .
+_:genid38 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid39 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> .
+_:genid39 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid40 .
+_:genid40 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid41 .
+_:genid41 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1847-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid41 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid41 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid39 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid42 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid42 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid42 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid43 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> .
+_:genid43 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid44 .
+_:genid44 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid45 .
+_:genid45 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid45 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid45 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid43 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid46 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> .
+_:genid46 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid47 .
+_:genid47 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid48 .
+_:genid48 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1789-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid48 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid48 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid46 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid49 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid49 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> .
+_:genid49 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid50 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> .
+_:genid50 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid51 .
+_:genid51 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid52 .
+_:genid52 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid52 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid52 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid50 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid53 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> .
+_:genid53 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid54 .
+_:genid54 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid55 .
+_:genid55 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1847-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid55 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid55 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid53 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid56 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> .
+_:genid56 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid57 .
+_:genid57 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid58 .
+_:genid58 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid58 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid58 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid56 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid59 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid59 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> .
+_:genid59 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid60 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid60 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/0dbf586a-7f6b-4cc1-a873-522a1bd44265> .
+_:genid60 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid61 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid61 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> .
+_:genid61 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid62 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> .
+_:genid62 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid63 .
+_:genid63 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid64 .
+_:genid64 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1800-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid64 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid64 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid62 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid65 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> .
+_:genid65 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid66 .
+_:genid66 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid67 .
+_:genid67 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1789-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid67 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid67 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid65 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid68 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> .
+_:genid68 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid68 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid70 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid70 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> .
+_:genid70 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid71 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> .
+_:genid71 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid71 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid73 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> .
+_:genid73 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid73 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid75 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> .
+_:genid75 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid76 .
+_:genid76 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid77 .
+_:genid77 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1800-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid77 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid77 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid75 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid78 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/8177082a-ed8d-417b-a60f-3e929cd1e97a> .
+_:genid78 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid78 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid80 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid80 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> .
+_:genid80 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid81 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> .
+_:genid81 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid82 .
+_:genid82 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid83 .
+_:genid83 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid83 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid83 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid81 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid84 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid84 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> .
+_:genid84 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid85 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid85 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid86 .
+_:genid86 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid87 .
+_:genid87 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1789-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid87 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid87 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid85 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid88 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid88 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> .
+_:genid88 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid89 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> .
+_:genid89 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid89 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid91 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> .
+_:genid91 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid92 .
+_:genid92 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid93 .
+_:genid93 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1795-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid93 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid93 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid91 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid94 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> .
+_:genid94 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid95 .
+_:genid95 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid96 .
+_:genid96 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid96 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid96 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid94 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid97 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid97 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> .
+_:genid97 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid98 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/3904c8d6-366e-4d92-a960-3d9ea46d4912> .
+_:genid98 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid99 .
+_:genid99 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid100 .
+_:genid100 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid100 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid100 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid98 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid101 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> .
+_:genid101 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid102 .
+_:genid102 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid103 .
+_:genid103 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1967-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid103 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid103 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid101 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid104 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> .
+_:genid104 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid104 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid106 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/72d1afeb-b46b-466f-a4cb-96753897f5ce> .
+_:genid106 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid107 .
+_:genid107 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid108 .
+_:genid108 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid108 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid108 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid106 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid109 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> .
+_:genid109 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid109 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid111 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/56897a8f-3fb1-4ff8-8992-883214285f10> .
+_:genid111 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid112 .
+_:genid112 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid113 .
+_:genid113 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1847-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid113 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid113 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid111 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid114 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid114 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> .
+_:genid114 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid115 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> .
+_:genid115 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid115 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid117 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> .
+_:genid117 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid118 .
+_:genid118 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid119 .
+_:genid119 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid119 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid119 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid117 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid120 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid120 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> .
+_:genid120 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid121 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid121 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> .
+_:genid121 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid122 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid122 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/5d0cd9fe-6b99-416d-a1a3-d532d2d6d6fc> .
+_:genid122 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid123 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid123 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> .
+_:genid123 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid124 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/dc71e0dd-c531-4556-b433-4c79769c088b> .
+_:genid124 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid124 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid126 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> .
+_:genid126 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid126 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid128 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/ae9d96bb-1170-4522-998d-b66c7d8c3775> .
+_:genid128 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid129 .
+_:genid129 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid130 .
+_:genid130 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid130 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid130 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid128 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid131 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid131 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> .
+_:genid131 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid132 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> .
+_:genid132 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid132 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid134 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/3ea38f40-82cf-48f9-8ded-53d3c5e92125> .
+_:genid134 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid135 .
+_:genid135 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid136 .
+_:genid136 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1847-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid136 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid136 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid134 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid137 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> .
+_:genid137 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid138 .
+_:genid138 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid139 .
+_:genid139 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1967-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid139 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid139 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid137 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid140 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/IsPartOf> .
+_:genid140 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> .
+_:genid140 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid141 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Along> .
+_:genid141 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/9a31660f-44c6-47dd-8cf4-17b08110f525> .
+_:genid141 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid142 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid142 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/8aeca660-ee93-4fef-b98a-026735807d82> .
+_:genid142 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid143 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/da6a5c2c-e86d-43bb-8950-7169bd0df60a> .
+_:genid143 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid144 .
+_:genid144 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid145 .
+_:genid145 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid145 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid145 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid143 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid146 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/648b7831-50ab-43ac-9396-12529056dc4f> .
+_:genid146 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid146 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid148 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid148 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/af64c1e7-5780-4937-a35e-f18cabfafec6> .
+_:genid148 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid149 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> .
+_:genid149 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid150 .
+_:genid150 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid151 .
+_:genid151 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid151 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid151 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid149 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid152 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid152 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/21dace9f-5178-4cc4-9588-b3a3e4283272> .
+_:genid152 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid153 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid153 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> .
+_:genid153 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid154 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid154 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid154 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid156 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid156 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/2f202433-cded-4857-a609-a1e0c548cb27> .
+_:genid156 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid157 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/d3299a59-4982-4f6f-bf1d-a2f692c219c4> .
+_:genid157 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid158 .
+_:genid158 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid159 .
+_:genid159 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid159 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid159 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid157 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid160 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/13b823a3-a9fe-40d1-b121-b6930d7b2c03> .
+_:genid160 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid161 .
+_:genid161 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid162 .
+_:genid162 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid162 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid162 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid160 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid163 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> .
+_:genid163 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid164 .
+_:genid164 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid165 .
+_:genid165 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid165 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid165 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid163 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid166 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/5fec0a47-aa74-4e02-aa66-77f156ea5327> .
+_:genid166 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid166 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid168 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/54db0315-d4bf-4505-a5c1-cba6ef681c8c> .
+_:genid168 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid169 .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid168 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid170 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/49e2cb25-9f61-4740-a09c-c307e1f3874f> .
+_:genid170 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid171 .
+_:genid171 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid172 .
+_:genid172 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid172 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid172 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid170 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid173 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid173 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/0b23b428-909d-42c0-bd76-dad84d061cb4> .
+_:genid173 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/a46424cb-2601-46db-a159-8545c4607ab2> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid174 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/393aa8b1-e60f-43b7-9c9e-9737ad804edd> .
+_:genid174 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid175 .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid174 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid176 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/87d7c2f6-306b-45a1-a833-5e17821c3102> .
+_:genid176 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid177 .
+_:genid177 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid178 .
+_:genid178 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid178 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid178 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid176 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#LandmarkRelation> .
+_:genid179 <http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType> <http://rdf.geohistoricaldata.org/id/codes/address/landmarkRelationType/Within> .
+_:genid179 <http://rdf.geohistoricaldata.org/def/address#locatum> <http://rdf.geohistoricaldata.org/id/landmark/aea3f2d9-4bc0-4176-ba88-a115a4ed76cc> .
+_:genid179 <http://rdf.geohistoricaldata.org/def/address#relatum> <http://rdf.geohistoricaldata.org/id/landmark/45f1621b-f88e-4800-9bba-55d8dd1087f4> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid180 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/2dae5e93-2c68-41c0-b736-e8b290b778c0> .
+_:genid180 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid181 .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid180 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid182 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/5ec66ee4-1bb2-456b-bafc-02bf3c88e770> .
+_:genid182 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid183 .
+_:genid183 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid184 .
+_:genid184 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1967-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid184 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid184 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid182 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid185 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/23f82e12-bcad-49b8-bb09-6a538496b72f> .
+_:genid185 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid186 .
+_:genid186 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid187 .
+_:genid187 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid187 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid187 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid185 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkAppearance> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Change> .
+_:genid188 <http://rdf.geohistoricaldata.org/def/address#appliedTo> <http://rdf.geohistoricaldata.org/id/landmark/fc109bfa-345c-4ee6-83a0-b2f084d4230b> .
+_:genid188 <http://rdf.geohistoricaldata.org/def/address#dependsOn> _:genid189 .
+_:genid189 <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid190 .
+_:genid190 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1967-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid190 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid190 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#Event> .
+_:genid188 <http://rdf.geohistoricaldata.org/def/address#isChangeType> <http://rdf.geohistoricaldata.org/id/codes/address/changeType/LandmarkDisappearance> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

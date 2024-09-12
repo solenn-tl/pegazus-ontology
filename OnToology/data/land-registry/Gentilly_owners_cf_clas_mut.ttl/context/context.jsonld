@@ -1,0 +1,112 @@
+{
+  "@context" : {
+    "taxpayerActivity" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#taxpayerActivity"
+    },
+    "Precision" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Precision"
+    },
+    "RecordPart" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+    },
+    "wasGeneratedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy"
+    },
+    "taxpayerLabel" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#taxpayerLabel"
+    },
+    "appliedTo" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#appliedTo"
+    },
+    "hasAttributeVersion" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasAttributeVersion"
+    },
+    "makesEffective" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#makesEffective"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Taxpayer" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#Taxpayer"
+    },
+    "TimeInstant" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+    },
+    "Instanciation" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#Instanciation"
+    },
+    "Event" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+    },
+    "transcription" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#transcription"
+    },
+    "Attribute" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Attribute"
+    },
+    "isChangeType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isChangeType"
+    },
+    "timeStamp" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeStamp"
+    },
+    "hasTime" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasTime"
+    },
+    "hasOrHadConstituent" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#hasOrHadConstituent"
+    },
+    "isSourceType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType"
+    },
+    "taxpayerAddress" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#taxpayerAddress"
+    },
+    "taxpayerStatus" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#taxpayerStatus"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "isOrWasDigitalInstantiationOf" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf"
+    },
+    "timeCalendar" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeCalendar"
+    },
+    "Change" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+    },
+    "fromSource" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#fromSource"
+    },
+    "isAttributeType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isAttributeType"
+    },
+    "isOrWasConstituentOf" : {
+      "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf"
+    },
+    "dependsOn" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#dependsOn"
+    },
+    "hasAttribute" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasAttribute"
+    },
+    "taxpayerFirstName" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#taxpayerFirstName"
+    },
+    "outdates" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#outdates"
+    },
+    "isEventType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#isEventType"
+    },
+    "hasTaxpayer" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasTaxpayer"
+    },
+    "AttributeVersion" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#AttributeVersion"
+    }
+  }
+}

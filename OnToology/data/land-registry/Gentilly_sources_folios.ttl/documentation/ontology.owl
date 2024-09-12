@@ -1,0 +1,2136 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cadastre="http://rdf.geohistoricaldata.org/def/cadastre#"
+     xmlns:ontology="https://www.ica.org/standards/RiC/ontology#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio -->
+
+
+    <AnnotationProperty rdf:about="http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio"/>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio -->
+
+
+    <AnnotationProperty rdf:about="http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio"/>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/def/cadastre#isSourceType -->
+
+
+    <AnnotationProperty rdf:about="http://rdf.geohistoricaldata.org/def/cadastre#isSourceType"/>
+    
+
+
+    <!-- https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf -->
+
+
+    <AnnotationProperty rdf:about="https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.ica.org/standards/RiC/ontology#RecordPart -->
+
+
+    <Class rdf:about="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_107bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_107bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>107bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0125_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_108 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_108">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>108</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0586_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_11 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_11">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>11</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0015_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_114 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_114">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>114</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0588_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_122bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_122bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>122bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0146_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_124bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_124bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>124bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0148_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_138 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_138">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>138</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0165_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_156 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_156">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>156</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0186_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_163 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_163">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>163</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0196_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_166 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_166">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>166</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0199_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_192bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_192bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>192bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0224_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_211 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_211">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>211</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0245_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_211bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_211bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>211bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0245_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_220 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_220">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>220</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0259_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_228 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_228">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>228</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_228ter -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_228ter">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>228ter</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0270_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_235bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_235bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>235bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0278_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>236</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0279_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236ter -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236ter">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>236ter</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0281_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_238 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_238">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>238</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_23bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_23bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>23bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0032_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_247 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_247">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>247</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0294_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_247ter -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_247ter">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>247ter</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_251bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_251bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>251bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0301_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_258 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_258">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>258</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0310_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_260 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_260">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>260</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0313_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_268 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_268">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>268</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0324_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_280bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_280bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>280bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0333_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_281 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_281">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>281</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0334_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_293 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_293">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>293</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0350_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_295 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_295">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>295</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0352_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_298bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_298bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>298bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0355_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_302 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_302">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>302</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0359_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_34ter -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_34ter">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>34ter</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0044_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_357 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_357">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>357</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0420_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_361 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_361">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>361</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0424_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_373bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_373bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>373bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0440_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_383 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_383">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>383</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0451_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_397ter -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_397ter">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>397ter</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0465_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_440 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_440">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>440</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0509_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_446 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_446">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>446</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0516_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_455 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_455">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>455</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0526_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_46bis -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_46bis">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>46bis</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0057_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_46ter -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_46ter">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>46ter</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_64 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_64">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>64</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0571_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_82 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_82">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>82</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0579_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_126 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_126">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>126</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_240 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_240">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>240</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0293_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_247 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_247">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>247</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0300_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_248 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_248">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>248</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0301_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_249 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_249">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>249</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0302_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_250 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_250">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>250</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0303_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_286 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_286">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>286</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0339_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_287 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_287">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>287</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0340_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_288 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_288">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>288</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0341_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_289 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_289">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>289</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0342_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_290 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_290">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>290</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0343_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_291 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_291">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>291</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0344_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_292 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_292">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>292</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0345_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_319 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_319">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>319</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0372_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_432 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_432">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>432</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0485_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_433 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_433">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>433</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0486_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_434 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_434">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>434</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0487_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_435 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_435">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>435</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0488_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_436 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_436">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>436</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0489_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_437 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_437">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>437</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0490_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_439 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_439">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>439</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0492_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_440 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_440">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>440</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0493_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_441 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_441">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>441</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0494_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_442 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_442">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>442</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0495_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_443 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_443">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>443</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0496_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_444 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_444">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>444</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0497_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_445 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_445">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>445</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0498_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_446 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_446">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>446</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0499_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_447 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_447">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>447</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0500_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_448 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_448">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>448</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0501_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_449 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_449">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>449</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0502_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_450 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_450">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>450</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0503_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_451 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_451">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>451</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0504_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_452 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_452">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>452</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0505_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_453 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_453">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>453</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0506_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_533 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_533">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>533</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_617 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_617">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>77</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>617</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0137_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_669 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_669">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>129</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>669</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0189_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_707 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_707">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>167</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>707</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0227_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_708 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_708">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>168</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>708</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0228_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_777 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_777">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>235</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>777</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0295_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_788 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_788">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>248</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>788</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0308_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_968 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_968">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>428</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>968</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0488_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1213 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1213">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1213</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0213_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1214 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1214">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1214</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0214_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1215 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1215">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1215</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0215_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1216 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1216">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1216</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0216_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1217 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1217">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1217</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0217_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1218 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1218">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1218</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0218_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1219 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1219">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1219</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0219_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1220 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1220">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1220</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0220_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1221 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1221">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1221</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0221_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1222 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1222">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>1222</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0222_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_2115 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_2115">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>2115</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_2430 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_2430">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>2430</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_392 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_392">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>392</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0445_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_393 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_393">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>393</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0446_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_394 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_394">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>394</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0447_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_395 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_395">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>395</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0448_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_396 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_396">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>496</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>396</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0449_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_397 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_397">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasAlternativeNumFolio>497</cadastre:hasAlternativeNumFolio>
+        <cadastre:hasNumFolio>397</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0450_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_398 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_398">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>398</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0451_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_399 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_399">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>399</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0452_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_400 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_400">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>400</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0453_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_401 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_401">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>401</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0454_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_402 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_402">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>402</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0455_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_403 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_403">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>403</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0456_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_465 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_465">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>465</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0518_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_513 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_513">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>513</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0013_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_827 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_827">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>827</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0329_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_828 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_828">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>828</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0330_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_829 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_829">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>829</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0331_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_830 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_830">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>830</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0332_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_831 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_831">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>831</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0333_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_832 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_832">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>832</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0334_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_833 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_833">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>833</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0335_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_834 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_834">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>834</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0336_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_836 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_836">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>836</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0338_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_837 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_837">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>837</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0339_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_843 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_843">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>843</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0345_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_844 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_844">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>844</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0346_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_845 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_845">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>845</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0347_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_846 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_846">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>846</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0348_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_847 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_847">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>847</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0349_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_848 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_848">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>848</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0350_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_849 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_849">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>849</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0351_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_851 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_851">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>851</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0353_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_852 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_852">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>852</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0354_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_853 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_853">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>853</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0355_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_854 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_854">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>854</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0356_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_855 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_855">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>855</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0357_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_856 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_856">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>856</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0358_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_857 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_857">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>857</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0359_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_858 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_858">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>858</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0360_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_859 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_859">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>859</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0361_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_860 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_860">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>860</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0362_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_861 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_861">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>861</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0363_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_862 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_862">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>862</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0364_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_863 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_863">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>863</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0365_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_864 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_864">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>864</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0366_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_865 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_865">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>865</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0367_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_866 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_866">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>866</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0368_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_867 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_867">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>867</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0369_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_868 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_868">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>868</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0370_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_869 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_869">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>869</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0371_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_870 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_870">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>870</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0372_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_871 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_871">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>871</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0373_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_872 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_872">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>872</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0374_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_873 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_873">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>873</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0375_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_874 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_874">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>874</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0376_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_875 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_875">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>875</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0377_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_876 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_876">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>876</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0378_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_877 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_877">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>877</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0379_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_878 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_878">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>878</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0380_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_879 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_879">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>879</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0381_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_880 -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_880">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>880</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0382_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_107↑2↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_107↑2↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>107↑2↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_235↑2↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_235↑2↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>235↑2↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236↑4↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236↑4↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>236↑4↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0281_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_269² -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_269²">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>269↑2↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0325_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_269↑2↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_269↑2↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>269↑2↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_274↑2↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_274↑2↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>274↑2↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_351↑4↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_351↑4↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>351↑4↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+        <ontology:isOrWasConstituentOf rdf:resource="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0414_page"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_249↑16↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_249↑16↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>249↑16↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_449↑1↓ -->
+
+
+    <NamedIndividual rdf:about="http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_449↑1↓">
+        <rdf:type rdf:resource="https://www.ica.org/standards/RiC/ontology#RecordPart"/>
+        <cadastre:hasNumFolio>449↑1↓</cadastre:hasNumFolio>
+        <cadastre:isSourceType rdf:resource="http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,144 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/ns/prov#endedAtTime
+<http://www.w3.org/ns/prov#endedAtTime> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#startedAtTime
+<http://www.w3.org/ns/prov#startedAtTime> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#used
+<http://www.w3.org/ns/prov#used> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/prov#wasAssociatedWith
+<http://www.w3.org/ns/prov#wasAssociatedWith> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/familyName
+<http://xmlns.com/foaf/0.1/familyName> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/firstName
+<http://xmlns.com/foaf/0.1/firstName> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/prov#Activity
+<http://www.w3.org/ns/prov#Activity> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/prov#Agent
+<http://www.w3.org/ns/prov#Agent> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0001
+<http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0001> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/ns/prov#Activity> ;
+                                                                   rdfs:label "Classification manuelle des pages de registres" ;
+                                                                   <http://www.w3.org/ns/prov#wasAssociatedWith> _:genid2 .
+
+_:genid2 rdf:type <http://www.w3.org/ns/prov#Agent> ,
+                   <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:label "Solenn Tual" ;
+          <http://xmlns.com/foaf/0.1/familyName> "Tual" ;
+          <http://xmlns.com/foaf/0.1/firstName> "Solenn" .
+
+
+###  http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0002
+<http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0002> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/ns/prov#Activity> ;
+                                                                   rdfs:label "Transcription manuelle des registres" ;
+                                                                   <http://www.w3.org/ns/prov#endedAtTime> "2024-03-29T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#startedAtTime> "2024-03-04T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#wasAssociatedWith> _:genid3 .
+
+_:genid3 rdf:type <http://www.w3.org/ns/prov#Agent> ,
+                   <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:label "Solenn Tual" ;
+          <http://xmlns.com/foaf/0.1/familyName> "Tual" ;
+          <http://xmlns.com/foaf/0.1/firstName> "Solenn" .
+
+
+###  http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0003
+<http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0003> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/ns/prov#Activity> ;
+                                                                   rdfs:label "Recallage de plans parcellaires géoréférencés" ;
+                                                                   <http://www.w3.org/ns/prov#endedAtTime> "2024-04-15T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#startedAtTime> "2024-04-15T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#used> <http://rdf.geohistoricaldata.org/id/source/FRAD094_3P_001041_georef> ;
+                                                                   <http://www.w3.org/ns/prov#wasAssociatedWith> _:genid4 .
+
+_:genid4 rdf:type <http://www.w3.org/ns/prov#Agent> ,
+                   <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:label "Solenn Tual" ;
+          <http://xmlns.com/foaf/0.1/familyName> "Tual" ;
+          <http://xmlns.com/foaf/0.1/firstName> "Solenn" .
+
+
+###  http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0004
+<http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0004> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/ns/prov#Activity> ;
+                                                                   rdfs:label "Géoréférencement des plans du cadastre napoléonien du 94" ;
+                                                                   <http://www.w3.org/ns/prov#endedAtTime> "2015-03-17T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#used> <http://rdf.geohistoricaldata.org/id/source/FRAD094_3P_001041> ;
+                                                                   <http://www.w3.org/ns/prov#wasAssociatedWith> _:genid5 .
+
+_:genid5 rdf:type <http://www.w3.org/ns/prov#Agent> ;
+          rdfs:label "Service départemental d'Archéologie du Val-de-Marne" .
+
+
+###  http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0005
+<http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0005> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/ns/prov#Activity> ;
+                                                                   rdfs:label "Géoréférencement des plans du cadastre napoléonien des communes annexées" ;
+                                                                   <http://www.w3.org/ns/prov#endedAtTime> "2023-05-16T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#used> <http://rdf.geohistoricaldata.org/id/source/CN80> ;
+                                                                   <http://www.w3.org/ns/prov#wasAssociatedWith> _:genid6 .
+
+_:genid6 rdf:type <http://www.w3.org/ns/prov#Agent> ;
+          rdfs:label "Paris Time Machine" .
+
+
+###  http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006
+<http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006> rdf:type owl:NamedIndividual ,
+                                                                            <http://www.w3.org/ns/prov#Activity> ;
+                                                                   rdfs:label "Vectorisation manuelle des plans parcellaires" ;
+                                                                   <http://www.w3.org/ns/prov#endedAtTime> "2024-06-19T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#startedAtTime> "2024-06-19T00:00:00"^^xsd:dateTimeStamp ;
+                                                                   <http://www.w3.org/ns/prov#used> <http://rdf.geohistoricaldata.org/id/source/FRAD094_3P_001041_georef_2> ,
+                                                                                                    <http://rdf.geohistoricaldata.org/id/source/digit_CN80_georef> ;
+                                                                   <http://www.w3.org/ns/prov#wasAssociatedWith> _:genid7 .
+
+_:genid7 rdf:type <http://www.w3.org/ns/prov#Agent> ,
+                   <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:label "Solenn Tual" ;
+          <http://xmlns.com/foaf/0.1/familyName> "Tual" ;
+          <http://xmlns.com/foaf/0.1/firstName> "Solenn" .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
