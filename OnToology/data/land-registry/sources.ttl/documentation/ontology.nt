@@ -1,0 +1,487 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://rdf.geohistoricaldata.org/def/address#hasBeginning
+<http://rdf.geohistoricaldata.org/def/address#hasBeginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#hasEnd
+<http://rdf.geohistoricaldata.org/def/address#hasEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#hasTime
+<http://rdf.geohistoricaldata.org/def/address#hasTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#timeCalendar
+<http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#timePrecision
+<http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#timeStamp
+<http://rdf.geohistoricaldata.org/def/address#timeStamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://rdf.geohistoricaldata.org/def/cadastre#isSourceType
+<http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#wasGeneratedBy
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#hasCreationDate
+<https://www.ica.org/standards/RiC/ontology#hasCreationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation
+<https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation
+<https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#identifier
+<https://www.ica.org/standards/RiC/ontology#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf
+<https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn
+<https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf
+<https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#location
+<https://www.ica.org/standards/RiC/ontology#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.ica.org/standards/RiC/ontology#name
+<https://www.ica.org/standards/RiC/ontology#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant
+<http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://rdf.geohistoricaldata.org/def/address#TimeInstant
+<http://rdf.geohistoricaldata.org/def/address#TimeInstant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.ica.org/standards/RiC/ontology#Instantiation
+<https://www.ica.org/standards/RiC/ontology#Instantiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.ica.org/standards/RiC/ontology#RecordSet
+<https://www.ica.org/standards/RiC/ontology#RecordSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanParcellaireFinal> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80_digit> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives de Paris" .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <https://www.ica.org/standards/RiC/ontology#identifier> "CN80" .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CN80> <https://www.ica.org/standards/RiC/ontology#name> "Plan révisé - Section D dite de la Barrière de Fontainebleau" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid2 .
+_:genid2 <http://rdf.geohistoricaldata.org/def/address#hasEnd> _:genid4 .
+_:genid4 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1941-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid4 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid4 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid2 <http://rdf.geohistoricaldata.org/def/address#hasBeginning> _:genid3 .
+_:genid3 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid3 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid3 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanParcellaire> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <https://www.ica.org/standards/RiC/ontology#hasCreationDate> _:genid5 .
+_:genid5 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid5 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid5 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <https://www.ica.org/standards/RiC/ontology#identifier> "PLAN_SD_1845" .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn> <http://rdf.geohistoricaldata.org/id/source/75_Gentilly_CAD2> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <https://www.ica.org/standards/RiC/ontology#location> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> <https://www.ica.org/standards/RiC/ontology#name> "Plan parcellaire de la section D dite de la Barrière de Fontainebleau" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80> <https://www.ica.org/standards/RiC/ontology#identifier> "digit_CN80" .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/75_Gentilly_PLAN_SD_1845> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80> <https://www.ica.org/standards/RiC/ontology#name> "Plan révisé - Section D dite de la Barrière de Fontainebleau (numérisé)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanGeoreference> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0005> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef> <https://www.ica.org/standards/RiC/ontology#identifier> "digit_CN80_georef" .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/75_Gentilly_nan> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_georef> <https://www.ica.org/standards/RiC/ontology#name> "Plan révisé - Section D dite de la Barrière de Fontainebleau (georéférencé)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanVectorise> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto> <https://www.ica.org/standards/RiC/ontology#identifier> "digit_CN80_vecto" .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/75_Gentilly_nan> .
+<http://rdf.geohistoricaldata.org/id/source/75_Gentilly_digit_CN80_vecto> <https://www.ica.org/standards/RiC/ontology#name> "Plan révisé - Section D dite de la Barrière de Fontainebleau (vectorisé)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanParcellaireIssuDAtlas> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <https://www.ica.org/standards/RiC/ontology#identifier> "3P1041" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P1041> <https://www.ica.org/standards/RiC/ontology#name> "Plan dérelié d'un atlas - Section B du Petit Gentilly" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P255
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P255> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P255> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P255> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P255> <https://www.ica.org/standards/RiC/ontology#identifier> "3P255" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P255> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P256
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P256> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P256> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P256> <https://www.ica.org/standards/RiC/ontology#identifier> "3P256" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P256> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P257
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P257> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P257> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P257> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P257> <https://www.ica.org/standards/RiC/ontology#identifier> "3P257" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P257> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P258
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P258> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P258> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000258_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P258> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P258> <https://www.ica.org/standards/RiC/ontology#identifier> "3P258" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P258> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P259
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P259> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P259> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P259> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P259> <https://www.ica.org/standards/RiC/ontology#identifier> "3P259" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P259> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P263
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P263> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P263> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P263> <https://www.ica.org/standards/RiC/ontology#identifier> "3P263" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P263> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P264
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P264> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P264> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P264> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P264> <https://www.ica.org/standards/RiC/ontology#identifier> "3P264" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P264> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P265
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P265> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P265> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000265_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P265> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P265> <https://www.ica.org/standards/RiC/ontology#identifier> "3P265" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P265> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P266
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P266> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000266_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P266> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P266> <https://www.ica.org/standards/RiC/ontology#identifier> "3P266" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P266> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P267
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P267> <https://www.ica.org/standards/RiC/ontology#hasOrHadDerivedInstanciation> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000267_01> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P267> <https://www.ica.org/standards/RiC/ontology#hasOrHadPhysicalLocation> "Archives Départementales du Val-de-Marne (94)" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P267> <https://www.ica.org/standards/RiC/ontology#identifier> "3P267" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_3P267> <https://www.ica.org/standards/RiC/ontology#isOrWasInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid6 .
+_:genid6 <http://rdf.geohistoricaldata.org/def/address#hasEnd> _:genid8 .
+_:genid8 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1848-03-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid8 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid8 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid6 <http://rdf.geohistoricaldata.org/def/address#hasBeginning> _:genid7 .
+_:genid7 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid7 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid7 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/Cadastre> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <https://www.ica.org/standards/RiC/ontology#hasCreationDate> _:genid9 .
+_:genid9 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid9 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid9 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <https://www.ica.org/standards/RiC/ontology#identifier> "CAD1" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <https://www.ica.org/standards/RiC/ontology#location> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> <https://www.ica.org/standards/RiC/ontology#name> "Premier cadastre de Gentilly" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid10 .
+_:genid10 <http://rdf.geohistoricaldata.org/def/address#hasEnd> _:genid12 .
+_:genid12 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1941-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid12 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid12 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid10 <http://rdf.geohistoricaldata.org/def/address#hasBeginning> _:genid11 .
+_:genid11 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid11 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid11 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/Cadastre> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <https://www.ica.org/standards/RiC/ontology#hasCreationDate> _:genid13 .
+_:genid13 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1845-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid13 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid13 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <https://www.ica.org/standards/RiC/ontology#identifier> "CAD2" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <https://www.ica.org/standards/RiC/ontology#location> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> <https://www.ica.org/standards/RiC/ontology#name> "Second cadastre de Gentilly" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000255_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000256_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000257_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000258_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000258_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000258_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000258_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000258_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000258_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000259_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000263_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000264_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000265_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000265_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000265_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000265_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000265_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000265_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000266_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000266_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000266_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000266_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000266_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000266_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000267_01
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000267_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000267_01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000267_01> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_000267_01" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000267_01> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_001041" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041> <https://www.ica.org/standards/RiC/ontology#name> "Plan dérelié d'un atlas - Section B du Petit Gentilly (numérisé)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanGeoreference> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0004> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_001041_georef" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_nan> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef> <https://www.ica.org/standards/RiC/ontology#name> "Plan dérelié d'un atlas - Section B du Petit Gentilly (géoréférencé)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanGeoreference> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0003> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_001041_georef_2" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_nan> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_georef_2> <https://www.ica.org/standards/RiC/ontology#name> "Plan dérelié d'un atlas - Section B du Petit Gentilly (géoréférencé + recallé)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#Instantiation> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanVectorise> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://rdf.geohistoricaldata.org/id/codes/cadastre/activity/0006> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto> <https://www.ica.org/standards/RiC/ontology#identifier> "FRAD094_3P_001041_vecto" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto> <https://www.ica.org/standards/RiC/ontology#isOrWasDigitalInstantiationOf> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_nan> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_001041_vecto> <https://www.ica.org/standards/RiC/ontology#name> "Plan dérelié d'un atlas - Section B du Petit Gentilly (vectorisé)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid14 .
+_:genid14 <http://rdf.geohistoricaldata.org/def/address#hasEnd> _:genid16 .
+_:genid16 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1836-09-20T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid16 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid16 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid14 <http://rdf.geohistoricaldata.org/def/address#hasBeginning> _:genid15 .
+_:genid15 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1813-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid15 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid15 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/MatriceCadastrale1807_1822_Bati_NonBati> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <https://www.ica.org/standards/RiC/ontology#hasCreationDate> _:genid17 .
+_:genid17 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1813-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid17 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid17 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <https://www.ica.org/standards/RiC/ontology#identifier> "MAT_B_NB_1813" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <https://www.ica.org/standards/RiC/ontology#location> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813> <https://www.ica.org/standards/RiC/ontology#name> "Matrices des propriétés bâties et non bâties" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid18 .
+_:genid18 <http://rdf.geohistoricaldata.org/def/address#hasEnd> _:genid20 .
+_:genid20 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1848-03-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid20 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid20 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid18 <http://rdf.geohistoricaldata.org/def/address#hasBeginning> _:genid19 .
+_:genid19 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1836-09-21T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid19 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid19 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/MatriceCadastrale1822_1914_NonBati> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <https://www.ica.org/standards/RiC/ontology#hasCreationDate> _:genid21 .
+_:genid21 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1836-09-21T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid21 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid21 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <https://www.ica.org/standards/RiC/ontology#identifier> "MAT_NB_1836" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <https://www.ica.org/standards/RiC/ontology#location> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836> <https://www.ica.org/standards/RiC/ontology#name> "Matrice des propriétés foncières (1836-1848)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid22 .
+_:genid22 <http://rdf.geohistoricaldata.org/def/address#hasEnd> _:genid24 .
+_:genid24 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1860-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid24 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid24 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid22 <http://rdf.geohistoricaldata.org/def/address#hasBeginning> _:genid23 .
+_:genid23 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1848-04-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid23 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid23 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/MatriceCadastrale1822_1914_NonBati> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <https://www.ica.org/standards/RiC/ontology#hasCreationDate> _:genid25 .
+_:genid25 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1848-04-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid25 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid25 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <https://www.ica.org/standards/RiC/ontology#identifier> "MAT_NB_1848" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD2> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <https://www.ica.org/standards/RiC/ontology#location> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848> <https://www.ica.org/standards/RiC/ontology#name> "Matrice des propriétés foncières (1848-1860)" .
+# 
+# http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.ica.org/standards/RiC/ontology#RecordSet> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <http://rdf.geohistoricaldata.org/def/address#hasTime> _:genid26 .
+_:genid26 <http://rdf.geohistoricaldata.org/def/address#hasEnd> _:genid28 .
+_:genid28 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1848-03-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid28 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid28 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid26 <http://rdf.geohistoricaldata.org/def/address#hasBeginning> _:genid27 .
+_:genid27 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid27 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid27 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#TimeInstant> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <http://rdf.geohistoricaldata.org/def/cadastre#isSourceType> <http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/PlanParcellaire> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <https://www.ica.org/standards/RiC/ontology#hasCreationDate> _:genid29 .
+_:genid29 <http://rdf.geohistoricaldata.org/def/address#timeStamp> "1811-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+_:genid29 <http://rdf.geohistoricaldata.org/def/address#timePrecision> <http://www.w3.org/2006/time#Year> .
+_:genid29 <http://rdf.geohistoricaldata.org/def/address#timeCalendar> <http://www.w3.org/2006/time#Gregorian> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://rdf.geohistoricaldata.org/def/address#CrispTimeInstant> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <https://www.ica.org/standards/RiC/ontology#identifier> "PLAN_SB_1811" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <https://www.ica.org/standards/RiC/ontology#isOrWasIncludedIn> <http://rdf.geohistoricaldata.org/id/source/94_Gentilly_CAD1> .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <https://www.ica.org/standards/RiC/ontology#location> "Gentilly" .
+<http://rdf.geohistoricaldata.org/id/source/94_Gentilly_PLAN_SB_1811> <https://www.ica.org/standards/RiC/ontology#name> "Plan parcellaire de la section B du Petit Gentilly" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

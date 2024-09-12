@@ -1,0 +1,88 @@
+{
+  "@context" : {
+    "timeValue" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeValue"
+    },
+    "hasPlotNature" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasPlotNature"
+    },
+    "wasGeneratedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy"
+    },
+    "timePrecision" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timePrecision"
+    },
+    "appliedTo" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#appliedTo"
+    },
+    "isLandmarkType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkType"
+    },
+    "LandmarkRelation" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+    },
+    "Landmark" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+    },
+    "hasAttributeVersion" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasAttributeVersion"
+    },
+    "makesEffective" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#makesEffective"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "TimeInstant" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+    },
+    "isLandmarkRelationType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType"
+    },
+    "Event" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+    },
+    "Attribute" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Attribute"
+    },
+    "locatum" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#locatum"
+    },
+    "isChangeType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isChangeType"
+    },
+    "hasTime" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasTime"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "timeCalendar" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeCalendar"
+    },
+    "Change" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Change"
+    },
+    "relatum" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#relatum"
+    },
+    "isAttributeType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isAttributeType"
+    },
+    "dependsOn" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#dependsOn"
+    },
+    "hasAttribute" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasAttribute"
+    },
+    "versionValue" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#versionValue"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "AttributeVersion" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#AttributeVersion"
+    }
+  }
+}

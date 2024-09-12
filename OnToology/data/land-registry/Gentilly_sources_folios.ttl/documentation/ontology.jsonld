@@ -1,0 +1,2569 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_107bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "107bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0125_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_107↑2↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "107↑2↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "108"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0586_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "11"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0015_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_114",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "114"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0588_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_122bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "122bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0146_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_124bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "124bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0148_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_138",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "138"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0165_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_156",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "156"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0186_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_163",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "163"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0196_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_166",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "166"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0199_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_192bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "192bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0224_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "211"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0245_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_211bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "211bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0245_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_220",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "220"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0259_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_228",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "228"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_228ter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "228ter"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0270_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_235bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "235bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0278_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_235↑2↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "235↑2↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "236"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0279_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236ter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "236ter"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0281_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_236↑4↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "236↑4↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0281_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_238",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "238"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_23bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "23bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0032_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_247",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "247"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0294_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_247ter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "247ter"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_251bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "251bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0301_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_258",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "258"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0310_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_260",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "260"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0313_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_268",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "268"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0324_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_269²",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "269↑2↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0325_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_269↑2↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "269↑2↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_274↑2↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "274↑2↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_280bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "280bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0333_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_281",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "281"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0334_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_293",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "293"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0350_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_295",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "295"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0352_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_298bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "298bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0355_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_302",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "302"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0359_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_34ter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "34ter"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0044_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_351↑4↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "351↑4↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0414_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_357",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "357"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0420_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_361",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "361"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0424_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_373bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "373bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0440_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_383",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "383"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0451_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_397ter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "397ter"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0465_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_440",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "440"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0509_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_446",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "446"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0516_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_455",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "455"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0526_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_46bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "46bis"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0057_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_46ter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "46ter"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "64"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0571_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_B_NB_1813_82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "82"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000255_01_0579_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_126",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "126"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_240",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "240"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0293_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_247",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "247"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0300_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_248",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "248"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0301_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_249",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "249"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0302_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_249↑16↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "249↑16↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "250"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0303_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_286",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "286"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0339_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_287",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "287"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0340_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_288",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "288"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0341_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_289",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "289"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0342_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_290",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "290"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0343_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_291",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "291"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0344_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_292",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "292"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0345_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_319",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "319"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0372_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_432",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "432"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0485_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_433",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "433"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0486_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_434",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "434"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0487_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_435",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "435"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0488_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_436",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "436"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0489_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_437",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "437"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0490_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_439",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "439"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0492_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_440",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "440"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0493_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_441",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "441"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0494_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_442",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "442"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0495_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_443",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "443"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0496_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_444",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "444"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0497_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_445",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "445"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0498_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_446",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "446"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0499_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_447",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "447"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0500_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_448",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "448"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0501_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_449",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "449"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0502_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_449↑1↓",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "449↑1↓"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_450",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "450"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0503_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_451",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "451"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0504_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_452",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "452"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0505_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_453",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "453"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000256_01_0506_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_533",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "533"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_617",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "77"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "617"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0137_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_669",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "129"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "669"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0189_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_707",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "167"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "707"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0227_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_708",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "168"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "708"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0228_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_777",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "235"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "777"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0295_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_788",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "248"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "788"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0308_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1836_968",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "428"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "968"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000257_01_0488_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1213",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1213"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0213_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1214"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0214_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1215",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1215"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0215_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1216",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1216"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0216_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1217",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1217"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0217_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1218",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1218"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0218_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1219",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1219"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0219_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1220",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1220"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0220_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1221",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1221"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0221_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_1222",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "1222"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000264_01_0222_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_2115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "2115"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_2430",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "2430"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_392",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "392"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0445_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_393",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "393"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0446_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_394",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "394"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0447_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_395",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "395"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0448_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_396",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "496"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "396"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0449_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_397",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasAlternativeNumFolio" : [ {
+    "@value" : "497"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "397"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0450_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_398",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "398"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0451_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_399",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "399"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0452_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_400",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "400"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0453_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_401",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "401"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0454_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_402",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "402"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0455_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_403",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "403"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0456_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_465",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "465"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000259_01_0518_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_513",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "513"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0013_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_827",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "827"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0329_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_828",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "828"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0330_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_829",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "829"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0331_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_830",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "830"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0332_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_831",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "831"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0333_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_832",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "832"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0334_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_833",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "833"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0335_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_834",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "834"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0336_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_836",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "836"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0338_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_837",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "837"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0339_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_843",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "843"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0345_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_844",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "844"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0346_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_845",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "845"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0347_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_846",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "846"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0348_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_847",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "847"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0349_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_848",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "848"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0350_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_849",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "849"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0351_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_851",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "851"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0353_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_852",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "852"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0354_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_853",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "853"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0355_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_854",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "854"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0356_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_855",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "855"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0357_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_856",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "856"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0358_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_857",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "857"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0359_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_858",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "858"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0360_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_859",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "859"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0361_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_860",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "860"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0362_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_861",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "861"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0363_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_862",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "862"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0364_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_863",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "863"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0365_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_864",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "864"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0366_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_865",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "865"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0367_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_866",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "866"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0368_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_867",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "867"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0369_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_868",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "868"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0370_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_869",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "869"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0371_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_870",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "870"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0372_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_871",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "871"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0373_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_872",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "872"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0374_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_873",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "873"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0375_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_874",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "874"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0376_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_875",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "875"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0377_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_876",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "876"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0378_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_877",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "877"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0379_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_878",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "878"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0380_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_879",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "879"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0381_page"
+  } ]
+}, {
+  "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_MAT_NB_1848_880",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#hasNumFolio" : [ {
+    "@value" : "880"
+  } ],
+  "http://rdf.geohistoricaldata.org/def/cadastre#isSourceType" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/codes/cadastre/sourceType/FolioNonBati"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart"
+  } ],
+  "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf" : [ {
+    "@id" : "http://rdf.geohistoricaldata.org/id/source/94_Gentilly_FRAD094_3P_000263_01_0382_page"
+  } ]
+}, {
+  "@id" : "https://www.ica.org/standards/RiC/ontology#RecordPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.ica.org/standards/RiC/ontology#isOrWasConstituentOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

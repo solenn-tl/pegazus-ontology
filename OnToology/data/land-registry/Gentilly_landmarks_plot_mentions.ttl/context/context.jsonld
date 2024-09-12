@@ -1,0 +1,130 @@
+{
+  "@context" : {
+    "hasPlotNature" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasPlotNature"
+    },
+    "isNamedEntityType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#isNamedEntityType"
+    },
+    "timePrecision" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timePrecision"
+    },
+    "isLandmarkType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkType"
+    },
+    "LandmarkRelation" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#LandmarkRelation"
+    },
+    "Landmark" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Landmark"
+    },
+    "hasAttributeVersion" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasAttributeVersion"
+    },
+    "makesEffective" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#makesEffective"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "isappliedTo" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isappliedTo"
+    },
+    "TimeInstant" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInstant"
+    },
+    "isMentionnedIn" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#isMentionnedIn"
+    },
+    "passedTo" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#passedTo"
+    },
+    "isLandmarkRelationType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isLandmarkRelationType"
+    },
+    "hasPlotAddress" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasPlotAddress"
+    },
+    "Event" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Event"
+    },
+    "transcription" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#transcription"
+    },
+    "Attribute" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#Attribute"
+    },
+    "locatum" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#locatum"
+    },
+    "isChangeType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isChangeType"
+    },
+    "timeStamp" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeStamp"
+    },
+    "hasNamedEntity" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasNamedEntity"
+    },
+    "hasTime" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasTime"
+    },
+    "TimeInterval" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#TimeInterval"
+    },
+    "hasLatestTimeInstant" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasLatestTimeInstant"
+    },
+    "hasEnd" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasEnd"
+    },
+    "hasBeginning" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasBeginning"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "timeCalendar" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#timeCalendar"
+    },
+    "relatum" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#relatum"
+    },
+    "lineOrderInArea" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#lineOrderInArea"
+    },
+    "isAttributeType" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#isAttributeType"
+    },
+    "NamedEntity" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#NamedEntity"
+    },
+    "hasClasse" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasClasse"
+    },
+    "hasEarliestTimeInstant" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasEarliestTimeInstant"
+    },
+    "dependsOn" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#dependsOn"
+    },
+    "hasAttribute" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#hasAttribute"
+    },
+    "outdates" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#outdates"
+    },
+    "hasClasseValue" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#hasClasseValue"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "AttributeVersion" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/address#AttributeVersion"
+    },
+    "takenFrom" : {
+      "@id" : "http://rdf.geohistoricaldata.org/def/cadastre#takenFrom"
+    }
+  }
+}
