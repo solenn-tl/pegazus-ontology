@@ -2,6 +2,8 @@
 
 This repository contains the documentation of the PeGaZus ontology and knowledge graph construction method. 
 
+Test
+
 ## Structure of the repository
 ```
 ├── data                      <- RDF resources used to build the graph
